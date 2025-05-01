@@ -20,17 +20,29 @@
       display: none;
       margin-top: 20px;
     }
+    h2 {
+      color: white;
+      position: absolute;
+      top: 420px;  /* Coloca el texto debajo del canvas */
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
+      font-size: 24px;
+      z-index: 10;
+    }
   </style>
 </head>
 <body>
 
   <div id="portada">
     <h1>Bienvenido a Pong</h1>
-    <h2>Creado por: Ivan Manrique</h2>
     <button onclick="iniciarJuego()">Iniciar</button>
   </div>
 
   <canvas id="pong" width="800" height="400"></canvas>
+  
+  <!-- El h2 con el texto de "Creado por" ahora está fijo en la parte superior -->
+  <h2>Creado por: Ivan Manrique</h2>
 
   <script src="script.js"></script>
 </body>

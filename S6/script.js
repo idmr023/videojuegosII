@@ -79,7 +79,7 @@ function update() {
   }
 
   if (scorePlayer === 10) {
-    alert("¡Felicitaciones Juan Pérez, ganaste!");
+    alert("¡Felicitaciones Ivan Manrique, ganaste!");
     document.location.reload();
   }
 
