@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pong - Juan Pérez</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+    }
+    #portada {
+      margin-top: 100px;
+    }
+    canvas {
+      border: 2px solid white;
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="portada">
+    <h1>Bienvenido a Pong</h1>
+    <h2>Creado por: Ivan Manrique</h2>
+    <button onclick="iniciarJuego()">Iniciar</button>
+  </div>
+
+  <canvas id="pong" width="800" height="400"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
